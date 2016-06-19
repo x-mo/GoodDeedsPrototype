@@ -12,3 +12,8 @@ the very first targets for the startup was designers and small/starting startups
 - [Google Cloud Messaging] (https://developers.google.com/cloud-messaging/)
 - [Firebase] (https://www.firebase.com/docs/android/)
 - [Firebase UI] (https://github.com/firebase/firebaseui-android)
+
+## License
+[MIT open source License] (https://opensource.org/licenses/MIT)
+
+
