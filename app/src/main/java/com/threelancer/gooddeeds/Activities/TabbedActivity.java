@@ -102,6 +102,7 @@ public class TabbedActivity extends AppCompatActivity
         int id = item.getItemId();
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "Under development yet!", Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);

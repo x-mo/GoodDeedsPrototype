@@ -38,9 +38,7 @@ public class CreateAccountActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
-
         mFirebaseRef = new Firebase(Constants.FIREBASE_URL);
-
         initializeScreen();
     }
 

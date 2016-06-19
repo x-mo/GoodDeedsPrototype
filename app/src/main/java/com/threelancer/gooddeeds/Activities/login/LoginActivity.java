@@ -41,7 +41,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         logoText = (TextView) findViewById(R.id.logo_text);
         mainLinearLayout = (LinearLayout) findViewById(R.id.main_linear_layout);
 
