@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.threelancer.gooddeeds.Activities.TabbedActivity;
 import com.threelancer.gooddeeds.model.User;
 import com.threelancer.gooddeeds.util.Constants;
 import com.threelancer.gooddeeds.util.Utilities;
@@ -60,7 +61,7 @@ public class CreateAccountActivity extends AppCompatActivity {
      * Open LoginActivity when user taps on "Sign in" textView
      */
     public void onSignInPressed(View view) {
-        Intent intent = new Intent(CreateAccountActivity.this, LoginActivity.class);
+        Intent intent = new Intent(CreateAccountActivity.this, TabbedActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
         finish();
@@ -98,6 +99,10 @@ public class CreateAccountActivity extends AppCompatActivity {
                 mAuthProgressDialog.dismiss();
                 Log.i(LOG_TAG, getString(R.string.log_message_auth_successful));
                 createUserInFirebaseHelper();
+                Intent intent = new Intent(CreateAccountActivity.this, TabbedActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
             }
 
             @Override
