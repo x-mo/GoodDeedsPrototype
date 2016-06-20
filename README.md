@@ -6,7 +6,9 @@ GoodDeeds is your means to hire specialists to do the tasks you need/require, fo
 You don’t need to have any money to hire professionals to do work for you, fulfilling the human resources you need for your project, startup, business or even personal services.
 
 ## Note 
-the very first targets for the startup was designers and small/starting startups, so this prototype made to demonstrate the first version of the app.
+- The very first targets for the startup was designers and small/starting startups, so this prototype made to demonstrate the first version of the app.
+- The Notification was implemented using Google Cloud Messaging, while it requires a server, and our server was shutdown at **25 May 16**, notification stop working.
+
 
 ## API Reference
 - [Google Cloud Messaging] (https://developers.google.com/cloud-messaging/)
