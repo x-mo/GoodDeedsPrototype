@@ -5,6 +5,15 @@ This app is a prototype for MIT ArabPane **Startup Track** competition - GoodDee
 GoodDeeds is your means to hire specialists to do the tasks you need/require, for free, in return of what you can and love to do. Gain Deed-Points by finishing tasks of your interest requested by fellow local and global Deeders, and use your points to hire the ones you see best suitable for your tasks.
 You don’t need to have any money to hire professionals to do work for you, fulfilling the human resources you need for your project, startup, business or even personal services.
 
+## Main Features
+- Login & register.
+- You can add offers for a job (Like posting on FB).
+- Anybody can see listed offers by time (newest) and tab on it to go into a detailed view.
+- Anybody can apply to any offer.
+- Notification received that someone has applied to your offer.
+- Designer profile Implemented with placeholder data (dummy data).
+- Startup profile Implemented with placeholder data (dummy data).
+
 ## Note 
 - The very first targets for the startup was designers and small/starting startups, so this prototype made to demonstrate the first version of the app.
 - The Notification was implemented using Google Cloud Messaging, while it requires a server, and our server was shutdown at **25 May 16**, notification stop working.
